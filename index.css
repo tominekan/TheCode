@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#info-section {
+    background-color: #4361EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.info-paragraph {
+    width: 25%;
+    display: block;
+    justify-content: space-evenly;
+}
+
+/*
+Essentilly all the text
+*/
+.paragraph-content, .paragraph-title, #big-text, #slogan {
+    text-align: center;
+    font-family: "Mohave", sans-serif;
+    color: #fffffc;
+}
+.paragraph-content {
+    font-size: large;
+}
+
+.paragraph-title {
+    font-size: 50px;
+}
+
+.image {
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+#site-intro {
+    background-color: #f72585;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    /* Stupid css workaround below*/
+    border: 0.1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#big-text {
+    font-size: 75px;
+    font-weight: bold;
+    background-color: #f72585;
+    border: none;
+    outline: none;
+}
+
+#slogan {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #f72585;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
