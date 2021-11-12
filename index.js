@@ -15,17 +15,18 @@ function typeTextOut() {
     }
 }
 
-// Checks if the inputted data is the correct data and alerts if correct
-function activateHiddenInputOne() {
-    var big_text = document.getElementById("slogan");
-    if (secret_value_1 == big_text.value) {
-        alertInput(1);
-    }
+//Creates a delay time in seconds that can be used with any function
+function delay(n){
+    return new Promise(function(resolve){
+        setTimeout(resolve,n*1000);
+    });
 }
 
-// We can put whatever we want here
-function alertInput(secret_number) {
-    if (secret_number === 1) {
-        alert("Why hello there.  Aren't you a curious little bugger?"); 
+// Checks if the inputted data is the correct data and alerts if correct
+async function activateHiddenInputOne() {
+    var big_text = document.getElementById("slogan");
+    if (secret_value_1 == big_text.value) {
+        await delay(0.25);
+        alert("Why hello there.  Aren't you a curious little bugger?");
     }
 }
