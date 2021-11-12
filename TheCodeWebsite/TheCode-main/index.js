@@ -19,13 +19,13 @@ function typeTextOut() {
 function activateHiddenInputOne() {
     var big_text = document.getElementById("slogan");
     if (secret_value_1 == big_text.value) {
-        alertInput(1);
+        setTimeout(alertInput(1), 1000);
     }
 }
 
 // We can put whatever we want here
 function alertInput(secret_number) {
     if (secret_number === 1) {
-        alert("Why hello there.  Aren't you a curious little bugger?"); 
+        setTimeout(() => { alert("Why hello there.  Aren't you a curious little bugger?") }, 1000)
     }
 }
