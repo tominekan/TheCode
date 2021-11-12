@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#info-section {
+    background-color: #5872e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.info-paragraph {
+    width: 25%;
+    display: block;
+    justify-content: space-evenly;
+}
+
+/*
+Essentilly all the text
+*/
+.paragraph-content, .paragraph-title, #big-text, #slogan {
+    text-align: center;
+    font-family: "Mohave", sans-serif;
+    color: #fffffc;
+}
+.paragraph-content {
+    font-size: large;
+}
+
+.paragraph-title {
+    font-size: 50px;
+}
+
+.image {
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+#site-intro {
+    background-color: #e94b65;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    /* Stupid css workaround below*/
+    border: 0.1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#big-text {
+    font-size: 75px;
+    font-weight: bold;
+    background-color: #e94b65;
+    border: none;
+    outline: none;
+}
+
+#slogan {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(233, 75, 101);
+    color: white;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fade-in-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    color: black;
+    animation: fadeIn linear 0.25s;
+    -webkit-animation: fadeIn linear 0.25s;
+    -moz-animation: fadeIn linear 0.25s;
+    -o-animation: fadeIn linear 0.25s;
+    -ms-animation: fadeIn linear 0.25s;
+  }
+  
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+  
+    @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+  
+    @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+
+    @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+  
+    @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
