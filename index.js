@@ -9,13 +9,14 @@ function typeTextOut() {
     if (i < txt.length) {
         big_text.value += txt.charAt(i);
         i++;
+        //speed = speed + 5; // Increase # to affect speed, uncomment to activate
         setTimeout(typeTextOut, speed);
     }
 }
 
 // Checks if the inputted data is the correct data and alerts if correct
 function activateHiddenInputOne() {
-    let big_text = document.getElementById("slogan");
+    let big_text = document.getElementById("slogan")
     if (secret_value_1 == big_text.value) {
         alertInput(1);
     }
