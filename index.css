@@ -34,27 +34,27 @@ Essentilly all the text
 }
 
 #about {
-    background-color:#bd88ff;
+    background-color:5#bd88ff;
+    margin-right: 10px;
     display: flex;
     align-items: center;
+    width : 50%;
+    color: #fffffc;
     justify-content: space-evenly;
     border-radius: 10px;
 }
 
-.about-us {
-    display: block;
-    justify-content: space-evenly;
-    text-align: center;
-    color: #fffffc;
-}
-
 .about-us-title {
     font-size: 50px;
+    float: left;
+    text-align: center;
 }
 
 .about-us-content {
     width: 35%;
-    
+    clear: both;
+    display: block;
+    text-align: center;
     font-size: large;
 }
 
