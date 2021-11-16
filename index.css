@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .info-paragraph {
@@ -33,10 +34,41 @@ Essentilly all the text
     font-size: 50px;
 }
 
-.image {
+#about {
+    background-color:#bd88ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.about-us {
+    display: block;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: "Mohave", sans-serif;
+    color: #fffffc;
+}
+
+.about-us-title {
+    font-size: 50px;
+}
+
+.about-us-content {
+    width: 35%;
+    
+    font-size: large;
+}
+
+.main-page-image {
     border-radius: 10px;
     width: 500px;
     height: 400px;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
 }
 
 #site-intro {
@@ -47,7 +79,7 @@ Essentilly all the text
     /* Stupid css workaround below*/
     border: 0.1px solid white;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #big-text {
@@ -72,8 +104,7 @@ Essentilly all the text
     margin-left: auto;
     margin-right: auto;
 }
-
-/*Look at all of this cool code*/
+  
 .fade-in-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
@@ -87,25 +118,55 @@ Essentilly all the text
   
     @keyframes fadeIn {
         0% {opacity:0;}
+        5% {opacity: 0.025;}
+        10% {opacity:0.1}
+        25% {opacity: 0.2}
+        50% {opacity: 0.35;}
+        60% {opacity: 0.55;}
+        75% {opacity: 0.80;}
         100% {opacity:1;}
     }
   
     @-moz-keyframes fadeIn {
         0% {opacity:0;}
+        5% {opacity: 0.025;}
+        10% {opacity:0.1}
+        25% {opacity: 0.2}
+        50% {opacity: 0.35;}
+        60% {opacity: 0.55;}
+        75% {opacity: 0.80;}
         100% {opacity:1;}
     }
   
     @-webkit-keyframes fadeIn {
         0% {opacity:0;}
+        5% {opacity: 0.025;}
+        10% {opacity:0.1}
+        25% {opacity: 0.2}
+        50% {opacity: 0.35;}
+        60% {opacity: 0.55;}
+        75% {opacity: 0.80;}
         100% {opacity:1;}
       }
 
     @-o-keyframes fadeIn {
         0% {opacity:0;}
+        5% {opacity: 0.025;}
+        10% {opacity:0.1}
+        25% {opacity: 0.2}
+        50% {opacity: 0.35;}
+        60% {opacity: 0.55;}
+        75% {opacity: 0.80;}
         100% {opacity:1;}
     }
   
     @-ms-keyframes fadeIn {
         0% {opacity:0;}
+        5% {opacity: 0.025;}
+        10% {opacity:0.1}
+        25% {opacity: 0.2}
+        50% {opacity: 0.35;}
+        60% {opacity: 0.55;}
+        75% {opacity: 0.80;}
         100% {opacity:1;}
     }
