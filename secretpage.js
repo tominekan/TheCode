@@ -1,21 +1,19 @@
-var running = true, list = ["H", "E", "L"]
+var running = true, list = ["H", "E", "L"], glitch;
 
-/*function delay(x){
-    return new Promise(function(resolve)){
-        setTimeout(resolve, x)
+function delay(x){
+    return new Promise(function(resolve){
+        setTimeout(resolve, x);
+    });
+}
+
+
+
+
+
+function glitch(){
+    glitch = document.getElementById("glitch-title");
+    while (running){
+        
     }
-}*/
-
-
-
-
-
-function animation(){
-    alert(document.title = "Haha I changed it suckerrrrrrrrrrrrrrrrrrrrrrrr");
-    /*while (running) {
-        for(var i = 0; i < list.length; i++){
-            setTimeout(document.title = list[i], 250);
-        }
-    */}    
+}    
     
-//Y0u sH01dN"T Bee Sea1!Ng Th!s
