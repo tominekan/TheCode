@@ -1,1 +1,5 @@
-var i = o;
+
+
+function animation(){
+    document.getElementById("glitch-title");
+}
